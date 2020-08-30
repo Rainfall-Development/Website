@@ -71,8 +71,8 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['Polar - yuuki', 'Polar - falsepikawoods', 'Polar - Emerlay', 'Polar - Final', 'Polar - Chino', 'Polar - Vegie', 'Polar - Zyrex', 'Polar - Glock', 'Polar - Darkn', 'Polar - Chesda', 'Polar - Danny', 'Polar - Gustas', 'Polar - God']);
-  app.iconChanger(['assets/icons/roses/icon.png']);
+  app.titleChanger(['Rainfall - Development']);
+  app.iconChanger(['assets/icons/icon.png']);
 });
 
 if ($.cookie('videoTime')) {
