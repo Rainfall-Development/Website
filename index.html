@@ -61,9 +61,6 @@
       <pre>|<div id="marquee"></div>|</pre>
     </div>
 
-    <div class="background" style="display: none;">
-      <div id="pattern"></div>
-
       <audio id="audio" loop="">
         <source src="assets/ms.mp3" type="audio/mp3" />
         <script>
@@ -73,6 +70,10 @@
           app.audioElement.volume = 0;
         </script>
       </audio>
+      <image id="background" loop="">
+        <source src="bg.mp4" type="image/jpg" />
+        <script>
+          const image = document.getElementById('background');
     </div>
     
     
