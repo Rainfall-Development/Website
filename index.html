@@ -24,12 +24,6 @@
   <body>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
     
-    <style>
-    div {
-    background-image: url('bg.jpg');
-    }
-    </style>
-
     <div id="main">
       <table class="box">
         <tbody>
@@ -70,10 +64,15 @@
           app.audioElement.volume = 0;
         </script>
       </audio>
-      <image id="background" loop="">
-        <source src="bg.mp4" type="image/jpg" />
+      <video id="background" loop="">
+        <source src="bg.mp4" type="video/mp4" />
         <script>
-          const image = document.getElementById('background');
+          const video = document.getElementById('background');
+
+          app.videoElement = video;
+          app.videoElement.volume = 0;
+        </script>
+      </video>
     </div>
     
     
@@ -83,7 +82,7 @@
     </div>
 
     <div class="footer">
-      <i><a href="https://discord.gg/qmMUQU6" target="_BLANK">Discord server</a></i>
+      <i><a href="https://discord.gg/R9K37tH" target="_BLANK">Discord server</a></i>
     </div>
 
     <script type="text/javascript" src="assets/javascript/lib/jquery-3.1.1.min.js"></script>
