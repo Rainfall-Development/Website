@@ -12,7 +12,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['14 Year Old Kid', 'Pro Roblox Player', 'Never Mad', 'knowledge is power', 'Boy', 'Simple Programmer'];
+  brandDescription = ['Rainfall Development', 'Easy To Use', 'Full Lua Level 6 - 7', 'We have always been dedicated to the security of our users', 'Rainfall gives you the ability to execute scripts at will. If ROBLOX can run it, so can Rainfall.', 'Made by Four Member'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
