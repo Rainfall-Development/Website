@@ -23,7 +23,7 @@
 
   <body>
     <script type="text/javascript" src="assets/javascript/app.js"></script>
-    
+
     <div id="main">
       <table class="box">
         <tbody>
@@ -55,13 +55,16 @@
       <pre>|<div id="marquee"></div>|</pre>
     </div>
 
+    <div class="background" style="display: none;">
+      <div id="pattern"></div>
+
       <audio id="audio" loop="">
         <source src="assets/ms.mp3" type="audio/mp3" />
         <script>
           const audio = document.getElementById('audio');
 
           app.audioElement = audio;
-          app.audioElement.volume = 2;
+          app.audioElement.volume = 0;
         </script>
       </audio>
 
@@ -75,15 +78,13 @@
         </script>
       </video>
     </div>
-    
-    
 
     <div class="top-right">
       <i><a class="skip">skip intro</a></i>
     </div>
 
     <div class="footer">
-      <i><a href="https://discord.gg/R9K37tH" target="_BLANK">Discord server</a></i>
+      <i><a href="https://discord.gg/qmMUQU6" target="_BLANK">Discord server</a></i>
     </div>
 
     <script type="text/javascript" src="assets/javascript/lib/jquery-3.1.1.min.js"></script>
