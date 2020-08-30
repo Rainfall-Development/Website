@@ -38,20 +38,20 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'Roblox',
-      link: 'https://web.roblox.com/users/590180069/profile',
+      name: 'yuuki#4950',
+      link: '',
     },
     {
-      name: 'Github',
-      link: 'https://github.com/VzltexArch',
+      name: 'Final#9999',
+      link: '',
     },
     {
-      name: 'Youtube',
-      link: 'https://www.youtube.com/channel/UCLz8OnzMLwfwyx-n4Q4LF7g?view_as=subscriber',
+      name: 'DWORD#5592',
+      link: '',
     },
     {
-      name: 'Discord',
-      link: 'Discord Id = 650336912900358164',
+      name: 'Polar#6009',
+      link: '',
     },
   ];
 
